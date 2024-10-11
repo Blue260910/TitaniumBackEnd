@@ -1,7 +1,6 @@
 const oracledb = require('oracledb');
 const express = require('express');
 const app = express();
-const port = 3000;
 
 // Configuração para conectar ao banco de dados
 const config = {
@@ -65,8 +64,4 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-// Iniciar o servidor
-app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
-  console.log('Pressione Ctrl+C para encerrar...');
-});
+module.exports = app;

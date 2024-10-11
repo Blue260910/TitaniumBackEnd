@@ -1,16 +1,9 @@
 {
-  "name": "titaniumbackend",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "TitaniumBack.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "api/index.js",
   "dependencies": {
-    "express": "^4.21.1",
-    "oracledb": "^6.6.0"
+    "express": "^4.17.1",
+    "oracledb": "^5.2.0"
   }
 }
